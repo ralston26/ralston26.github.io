@@ -41,7 +41,7 @@ body {
 .content {
 	background: url(../images/ralston_r.jpg) no-repeat;
 	background-size: 100%;
-	background-size:960px 640px;
+	background-size:cover;
 	}
 
 .heading{
