@@ -59,6 +59,33 @@ body {
 /*===================================================================================*/
 /*	HERO
 /*===================================================================================*/
+.nav-horizontal li {
+    float: left;
+    margin: 0 10px;
+}
+.nav li {
+    position: relative;
+}
+.nav-horizontal li a {
+    /* color: #5aaddd; */
+    font-size: 20px;
+    font-weight: 300;
+}
+.invert .nav > li > a {
+    color: rgba(255, 255, 255, 0.8);
+}
+.invert a {
+    color: #fff;
+}
+
+.nav a {
+    color: #323232;
+    transition: color 0.2s ease-in-out, background 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+.header-secondary {
+    background: #222533;
+    display: block;
+}
 .header_style{
 	padding:50px 0 0 0;
 	}
@@ -88,8 +115,8 @@ body {
 
 .flexy-menu{
 	width:100%;
-	margin:0;
-	padding:0;
+    	margin: -50px;
+   	padding-right: 210px;
 	position:relative;
 	float:left;
 	list-style:none;
@@ -276,13 +303,12 @@ body {
 	z-index: 10;
 	font-weight:600;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
-	font-size:3.5em;
+	font-size:2.5em;
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
-	text-transform: uppercase;
 }
 .da-slide p{
-	top:110px;
+	top:80px;
 	color: #FFFFFF;
 	font-size: 1.4em;
 	height: 80px;
